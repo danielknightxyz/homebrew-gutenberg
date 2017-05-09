@@ -9,6 +9,6 @@ class Gutenberg < Formula
     bottle :unneeded
 
     def install
-        prefix.install ["gutenberg-0.1.0-beta-1.jar"]
+        prefix.install ["gutenberg-0.1.0-beta-1.jar","gutenberg.sh"]
     end
 end
