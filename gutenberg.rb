@@ -2,13 +2,13 @@
 class Gutenberg < Formula
     desc "A template and scaffolding utility." 
     homepage "https://github.com/sourcefoundryus/gutenberg"
-    url "https://github.com/sourcefoundryus/homebrew-gutenberg/blob/master/archive/gutenberg-0.1.0-beta-1.tar"
-    sha256 "20408e6c2dbba6e9f1d75dad479f505fca843d96a8f89d7d879876de4bc4ebbf"
-    version "1.0.0"
+    url "https://github.com/sourcefoundryus/gutenberg/releases/download/0.1.0-beta.1/gutenberg-0.1.0-beta-1.zip"
+    sha256 "3e9b3aba042545826b6490adeb4ba37dcc654b61a1e5e53d3f6259c0016485df"
+    version "0.1.0-beta.1"
 
     bottle :unneeded
 
     def install
-        bin.install "gutenberg"
+        bin.install ["gutenberg-0.1.0-beta-1.jar"]
     end
 end
