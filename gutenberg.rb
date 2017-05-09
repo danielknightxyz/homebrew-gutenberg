@@ -10,6 +10,6 @@ class Gutenberg < Formula
 
     def install
         libexec.install "gutenberg-0.1.0-beta-1.jar"
-        bin.install "gutenberg.sh"
+        bin.install "gutenberg"
     end 
 end
