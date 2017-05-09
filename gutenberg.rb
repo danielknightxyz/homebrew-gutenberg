@@ -9,7 +9,7 @@ class Gutenberg < Formula
     bottle :unneeded
 
     def install
-        libexec.install "gutenberg-0.1.0-beta-1.jar"
+        lib.install "gutenberg-0.1.0-beta-1.jar"
         bin.install "gutenberg"
     end 
 end
